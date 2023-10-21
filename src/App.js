@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 
 import "@appwrite.io/pink";
 import "@appwrite.io/pink-icons";

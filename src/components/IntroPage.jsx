@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import CodeBox from './CodeBox';
 import girlImage from '../assets/girl.png';
 import ScrollDownArrow from './ScrollDownArrow';
+import Star from './Star';
 
 
 function IntroPage() {
@@ -27,6 +28,7 @@ function IntroPage() {
   return (
     <>
       <div className='flex items-center justify-center p-32'>
+        <Star/>
       <motion.a
           initial="hidden"
           animate="visible"
