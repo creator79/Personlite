@@ -11,6 +11,7 @@ import Experience from './components/Experience';
 import End from './components/End';
 import Projects from './components/Projects';
 import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
+import Blogs from './components/Blogs';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
     ><hr className='w-48 h-1 mx-auto my-20 bg-gray-100 border-0 rounded md:my-5 dark:bg-gray-700' />
     </motion.div>
     <Projects />
+    <Blogs />
     <motion.div
       style={{ scale: scrollYProgress }}
     ><hr className='w-48 h-1 mx-auto mb-10 bg-gray-100 border-0 rounded md:my-5 dark:bg-gray-700' />

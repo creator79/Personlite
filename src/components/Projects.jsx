@@ -18,7 +18,7 @@ export default function Projects() {
         {projectsData.map((project, index) => (
           <div key={project.id} className={`bg-black p-8 rounded-xl mb-8 shadow-purple ${index === projectsData.length - 1 ? 'flex justify-center items-center p-16 pl-20 opacity-40 hover:opacity-90 border-3 border-dashed border-darkGray' : 'hover:shadow-purple-intense'}`} style={{ borderRadius: '10%' }}>
             <a
-              href={index === projectsData.length - 1 ? "https://github.com/Dksie09" : project.links[0]?.url || "#"}
+              href={index === projectsData.length - 1 ? "https://github.com/creator79" : project.links[0]?.url || "#"}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-grow"
