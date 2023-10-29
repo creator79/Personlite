@@ -1,6 +1,6 @@
 export const GET_USER_BLOGS = `
 query GetUserArticles($page: Int!) {
-    user(username: "hat52") {
+    user(username: "creator79") {
         publication {
             posts(page: $page) {
                 title

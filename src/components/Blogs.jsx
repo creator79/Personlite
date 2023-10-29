@@ -53,13 +53,9 @@ function Blogs() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mt-16">
         {blogs.map((data, index) => (
           <div key={data.id} className=" mb-8">
-            <div
-              className={`bg-black shadow-purple ${
-                index === blogs.length - 1
-                  ? "flex justify-center items-center p-16 pl-20 opacity-40 hover:opacity-90 border-3 border-dashed border-darkGray"
-                  : "hover:shadow-purple-intense"
-              }`}
-            >
+        <div
+  className= "bg-black shadow-purple hover:shadow-purple-intense ">
+
               {/* Black card content */}
               <BlogCard key={data.id} data={data} />
             </div>

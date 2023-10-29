@@ -10,7 +10,6 @@ import { motion, useScroll, useSpring, useTransform, useViewportScroll } from "f
 import Experience from './components/Experience';
 import End from './components/End';
 import Projects from './components/Projects';
-import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
 import Blogs from './components/Blogs';
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
   return (<div>
     <div className='h-screen'>
       <IntroPage />
-      <MouseTrail strokeColor={"#DB2777"} lineWidthStart={20} lineDuration={100}  />
     </div>
     <Skills />
     <motion.div
