@@ -3,12 +3,14 @@ query GetUserArticles($page: Int!) {
     user(username: "creator79") {
         publication {
             posts(page: $page) {
+                
                 title
                 brief
                 slug
                 dateAdded
                 coverImage
                 contentMarkdown
+                
             }
         }
     }

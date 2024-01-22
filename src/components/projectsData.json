@@ -101,6 +101,25 @@
         ]
     },
     {
+        "id": 8,
+        "title": "DevOverflow",
+        "description": "Welcome to DevOverflow, a platform packed with advanced features! Standouts include a unique post recommendation system and AI-generated answers. Global database data-fetching ensures swift content delivery, while a playful Badge & Reputation System adds extra flair. With Views and Voting Mechanisms, plus Filter and Pagination options, the user experience is top-notch. Crafted with Next.js and cutting-edge techniques, it offers a seamless, feature-rich environment. Join us in shaping the future of collaborative programming learning!",
+        "tags": [
+            "NextJS 13",
+            "Tailwind Css/shadcn/ui",
+            "Zod ",
+            "Clerk Auth",
+            "MongoDB"
+        
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://excel-clone-two.vercel.app/"
+            }
+        ]
+    },
+    {
         "id": "last",
         "title": "See more ➤ ",
         "description": "",

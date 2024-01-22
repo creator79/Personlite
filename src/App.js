@@ -1,8 +1,8 @@
 import React from 'react';
 // import './App.css';
 
-import "@appwrite.io/pink";
-import "@appwrite.io/pink-icons";
+// import "@appwrite.io/pink";
+// import "@appwrite.io/pink-icons";
 import IntroPage from './components/IntroPage';
 import Skills from './components/Skills';
 import UpButton from './components/UpButton';
@@ -48,3 +48,5 @@ function App() {
 }
 
 export default App;
+
+

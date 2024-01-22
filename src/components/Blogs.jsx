@@ -21,6 +21,7 @@ function Blogs() {
     while (!allBlogsFetched) {
 
       let response = await gql(GET_USER_BLOGS, { page: page });
+      console.log(response);
       articles.push(...response.data.user.publication.posts);
       if (response.data.user.publication.posts.length === 0) {
         allBlogsFetched = true;

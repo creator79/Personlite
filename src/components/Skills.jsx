@@ -45,7 +45,7 @@ function Skills() {
             </div>
 
 
-            <div className='flex gap-2 my-2'>
+            <div className='flex gap-2 my-2  borderColor'>
               <div className='tag'>Reactjs</div>
               <div className='tag'>Nextjs</div>
               <div className='tag'>Docker</div>

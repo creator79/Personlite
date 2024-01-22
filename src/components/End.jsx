@@ -44,6 +44,10 @@ function End() {
       <p className='text-gray-400 mt-6 text-xl'>
         You've clicked the easter egg{' '}
         <span className='font-bold text-pink-600'>{easterEggCounter}</span> times!
+        {
+          console.log(easterEggCounter)
+        }
+        
       </p>
      
     </div>

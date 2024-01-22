@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import CodeBox from './CodeBox';
 import ScrollDownArrow from './ScrollDownArrow';
 import Star from './Star';
-
+import Image from '../assets/Boy3.png';
 
 function IntroPage() {
 
@@ -53,7 +53,7 @@ function IntroPage() {
       <div className='hidden md:block'>
     
         <span className=' flex flex-row absolute bottom-0  left-0 h-[60%] '>
-        <img src="https://drive.google.com/uc?export=view&id=1BE-WrnRJGeXzDSHQuGVIO7d6Xw3dz1Wq"  />
+       <img src={Image} className='w-96 h-96' />
         </span>
         </div>
 
