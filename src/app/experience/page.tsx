@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Lamp from "@/components/shared/Lamp";
 
 const Experience = () => {
   return (
-    <div>Experience</div>
-  )
-}
+    <div>
+      <Lamp />
+    </div>
+  );
+};
 
-export default Experience
+export default Experience;
