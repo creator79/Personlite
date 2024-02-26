@@ -30,51 +30,52 @@ export const GoogleGeminiEffect = ({
           <div className="items-center justify-center"></div>
         </div>
         <div className="flex-1  flex items-center">
-          <div className="w-full">
-            <p className="text-base">
-              My expertise is in the intersection of MERN stack development,
-              Docker, and building innovative solutions for optimization
-              <span className="opacity-40">
-                {" "}
-                (you could say I'm a software developer in the AI field)
-              </span>
-              . <br />
-              I'm actively delving into the fascinating domain of software
-              development. <br />
-              Currently, I'm enthusiastically{" "}
-              <span className="text-pink-600">#excited about MERN stack</span>.
-            </p>
-            <p className="text-base mt-10 opacity-40">
-              My vision for the near future is to build some cool AI tools, and
-              make engaging content for beginners in tech :)
-            </p>
-            <div className="flex justify-between mt-6">
-              <p className="font-mono">
-                Also,{" "}
-                <a
-                  href="https://twitter.com/creator_79"
-                  className="relative"
-                  target="_blank"
-                >
-                  <span className="group">
-                    I tweet sometimes.
-                    <span className="absolute w-full h-1 bg-pink-700 bottom-0 left-0 transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform"></span>
-                  </span>
-                </a>
-              </p>
-              <span className="font-bold text-purple-800"> — Delhi, India</span>
-            </div>
+  <div className="w-full">
+    <p className="text-base">
+      My expertise is in the intersection of MERN stack development,
+      Docker, and building innovative solutions for optimization
+      <span className="opacity-40">
+        {" "}
+        (you could say I&apos;m a software developer in the AI field)
+      </span>
+      . <br />
+      I&apos;m actively delving into the fascinating domain of software
+      development. <br />
+      Currently, I&apos;m enthusiastically{" "}
+      <span className="text-pink-600">#excited about MERN stack</span>.
+    </p>
+    <p className="text-base mt-10 opacity-40">
+      My vision for the near future is to build some cool AI tools, and
+      make engaging content for beginners in tech :)
+    </p>
+    <div className="flex justify-between mt-6">
+      <p className="font-mono">
+        Also,{" "}
+        <a
+          href="https://twitter.com/creator_79"
+          className="relative"
+          target="_blank"
+        >
+          <span className="group">
+            I tweet sometimes.
+            <span className="absolute w-full h-1 bg-pink-700 bottom-0 left-0 transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform"></span>
+          </span>
+        </a>
+      </p>
+      <span className="font-bold text-purple-800"> — Delhi, India</span>
+    </div>
 
-            <div className="flex gap-2 my-2  borderColor ">
-              <div className="tag">Reactjs</div>
-              <div className="tag">Nextjs</div>
-              <div className="tag">Docker</div>
-              <div className="tag">Mysql</div>
-              <div className="tag">Nodejs</div>
-              <div className="tag">Content</div>
-            </div>
-          </div>
-        </div>
+    <div className="flex gap-2 my-2  borderColor ">
+      <div className="tag">Reactjs</div>
+      <div className="tag">Nextjs</div>
+      <div className="tag">Docker</div>
+      <div className="tag">Mysql</div>
+      <div className="tag">Nodejs</div>
+      <div className="tag">Content</div>
+    </div>
+  </div>
+</div>
+
       </div>
       <p className=" text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
         {title || ``}

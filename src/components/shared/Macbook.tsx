@@ -6,6 +6,7 @@ import Image from "next/image";
 const MacbookScrollDemo = () => {
   return (
     <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
+      
       <MacbookScroll
         title={
           <div className="mb-4 flex items-center justify-center md:flex-row">
@@ -17,7 +18,7 @@ const MacbookScrollDemo = () => {
               className="mr-5 mb-5 h-15 w-10"
             />
             <span className="text-xl font-semibold text-black dark:text-white">
-              A goofy lil boy who's in a love-hate relationship with coding
+              A goofy lil boy who &apos;s in a love-hate relationship with coding
             </span>
             <br />
 

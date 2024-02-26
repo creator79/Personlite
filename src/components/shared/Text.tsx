@@ -1,7 +1,7 @@
 "use client";
 import { TextGenerateEffect } from "@/components/aceternity/text-generate-effect";
 
-const words = ` Type in Your Terminal npx hi-vivek 
+const words = ` This Page Is Under Construction 
 
 
 
