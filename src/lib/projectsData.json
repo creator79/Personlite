@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "title": "CodeBook",
+        "description": "CodeBox is a powerful platform designed to streamline and enhance coding collaboration. Whether you're working on a group project conducting coding interviews or simply want to code with friends, this tool is here to assist you.",
+        "tags": [
+            "ReactJS",
+            "Webrtc",
+            "Compiler Api"
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://dreamy-shortbread-838281.netlify.app/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Product3D",
+        "description": "Experience the perfect fusion of creativity and fashion on our 3D T-shirt website, where ecommShop and customers come together through customizable designs and captivating 3D aesthetics",
+        "tags": [
+            "ReactJS",
+            "Firebase",
+            "Redux Toolkit",
+            "Three.js"
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://product-3-d.vercel.app/"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Food Hunt",
+        "description": "An innovative food ordering application, similar to Swiggy, utilizes Alan AI to automate tasks and enables you to conveniently place food orders based on your location.",
+        "tags": [
+            "ReactJS",
+            "Tailwind Css",
+            "Redux Toolkit",
+            "Jest"
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://food-hunt-sigma.vercel.app/"
+            }
+        ]
+    },
+    
+    {
+        "id": 5,
+        "title": "Zencode",
+        "description":"Zencode is a platform that offers a visual representation of how encryption and decryption work through the use of the Huffman coding algorithm. It also provides a visual representation of the tree used for encrypting and decrypting your file content.",
+    
+        "tags": [
+            "Html",
+            "Css",
+            "Javascript",
+            "Stack Ds"
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://creator79.github.io/Zencode/"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "MacOS ",
+        "description": "As a child, I had a deep affection for macOS and as I'm now learning development, I aspire to create my own web-based macOS series. This series will include features for listening to music, handling spreadsheets, a whiteboard, a recent menu feature, and captivating animations, much like the macOS experience.",
+        "tags": [
+            "Html",
+            "css",
+            "Javascript"
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://mac-os-clone-orcin.vercel.app/"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Excel Book",
+        "description": "I added a 'Formula Bar' to the app using Stacks and Graphs, making it super smart. Imagine having many sheets of digital paper at your disposal, just like a bunch of colorful notepads. And guess what? I also made sure the app can spot cycles in the data, like a detective solving mysteries. So now, it's not just any app; it's a super cool, super-smart, and super-sleuth app that's ready for action!",
+        "tags": [
+            "Html",
+            "css",
+            "Javascript"
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://excel-clone-two.vercel.app/"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "DevOverflow",
+        "description": "Welcome to DevOverflow, a platform packed with advanced features! Standouts include a unique post recommendation system and AI-generated answers. Global database data-fetching ensures swift content delivery, while a playful Badge & Reputation System adds extra flair. With Views and Voting Mechanisms, plus Filter and Pagination options, the user experience is top-notch. Crafted with Next.js and cutting-edge techniques, it offers a seamless, feature-rich environment. Join us in shaping the future of collaborative programming learning!",
+        "tags": [
+            "NextJS 13",
+            "Tailwind Css/shadcn/ui",
+            "Zod ",
+            "Clerk Auth",
+            "MongoDB"
+        
+        ],
+        "links": [
+            {
+                "name": "Deployed App",
+                "url": "https://devflow-davidevignozzi.vercel.app/"
+            }
+        ]
+    },
+    {
+        "id": "last",
+        "title": "See more ➤ ",
+        "description": "",
+        "tags": [],
+        "links": []
+    }
+]
