@@ -20,7 +20,8 @@ export default function StickyScrollRevealDemo() {
         </p>
       </div>
       <StickyScroll
-      // @ts-ignore
+        // @ts-ignore
+
         content={projectsData.map((project) => ({ ...project, link: "" }))}
       />
     </div>

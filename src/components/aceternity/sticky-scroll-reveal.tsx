@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
+import { TracingBeam } from "@/components/aceternity/tracing-beam";
 
 export const StickyScroll = ({
   content,
@@ -53,6 +54,7 @@ export const StickyScroll = ({
       ref={ref}
     >
       <div className="div relative flex items-start px-4">
+          <TracingBeam className="" >
         <div className="max-w-2xl">
           {content.map((item, index) => (
             <div key={item.id} className="my-20">
@@ -106,6 +108,7 @@ export const StickyScroll = ({
 
           <div className="h-40" />
         </div>
+          </TracingBeam>
       </div>
       <motion.div
         animate={{

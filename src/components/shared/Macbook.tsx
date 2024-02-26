@@ -1,16 +1,34 @@
 import React from "react";
 import { MacbookScroll } from "@/components/aceternity/macbook-scroll";
 import Link from "next/link";
+import Image from "next/image";
 
 const MacbookScrollDemo = () => {
   return (
     <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
       <MacbookScroll
         title={
-          <span className="text-pink-600">
-            &quot; A goofy lil boy who&apos;s in a love-hate relationship with
-            coding &quot;
-          </span>
+          <div className="mb-4 flex items-center justify-center md:flex-row">
+            <Image
+              src="/quote.png"
+              width={50}
+              height={50}
+              alt="quote"
+              className="mr-5 mb-5 h-15 w-10"
+            />
+            <span className="text-xl font-semibold text-black dark:text-white">
+              A goofy lil boy who's in a love-hate relationship with coding
+            </span>
+            <br />
+
+            <Image
+              src="/unquote.png"
+              width={50}
+              height={50}
+              alt="unquote"
+              className="ml-5 mt-5 h-15 w-10"
+            />
+          </div>
         }
         badge={
           <Link href="https://github.com/creator79">
