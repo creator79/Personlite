@@ -2,19 +2,20 @@
 import React from "react";
 import { ContainerScroll } from "@/components/aceternity/container-scroll-animation";
 
-export function HeroScrollDemo() {
+export default function HeroScrollDemo() {
   return (
     <div className="flex flex-col overflow-hidden">
       <ContainerScroll
         users={users}
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Unleash the power of <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
-              </span>
+            <h1 className="text-6xl font-bold text-white px-10 mt-20 pb-4 overflow-hidden">
+              {" "}
+              Skills 🥯{" "}
             </h1>
+            <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+              Scroll Animations
+            </span>
           </>
         }
       />
@@ -25,116 +26,72 @@ export function HeroScrollDemo() {
 export const users = [
   {
     name: "Manu Arora",
-    designation: "Founder, Algochurn",
-    image: "https://picsum.photos/id/10/300/300",
+    designation: "React Js",
+    image:
+      "https://assets-v2.lottiefiles.com/a/b3202668-1151-11ee-939e-cf25d6aad422/k1qbZAOrp7.gif",
     badge: "Mentor",
   },
   {
     name: "Sarah Singh",
-    designation: "Founder, Sarah's Kitchen",
-    image: "https://picsum.photos/id/11/300/300",
+    designation: "Next Js",
+    image:
+      "https://w7.pngwing.com/pngs/87/586/png-transparent-next-js-hd-logo-thumbnail.png",
     badge: "Mentor",
   },
   {
     name: "John Doe",
-    designation: "Software Engineer, Tech Corp",
-    image: "https://picsum.photos/id/12/300/300",
+    designation: "Node JS",
+    image:
+      "https://www.ambientinfotech.com/wp-content/uploads/2023/01/NODEJS_CIRCLE.gif",
     badge: "Mentor",
   },
   {
     name: "Jane Smith",
-    designation: "Product Manager, Innovate Inc",
-    image: "https://picsum.photos/id/13/300/300",
+    designation: "Express Js",
+    image:
+      "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
     badge: "Mentor",
   },
   {
     name: "Robert Johnson",
-    designation: "Data Scientist, DataWorks",
-    image: "https://picsum.photos/id/14/300/300",
+    designation: "MongoDB",
+    image:
+      "https://assets-v2.lottiefiles.com/a/2a2a499e-116d-11ee-8f41-7f82227ba589/MIgBtJS610.gif",
     badge: "Mentor",
   },
   {
     name: "Emily Davis",
-    designation: "UX Designer, DesignHub",
-    image: "https://picsum.photos/id/15/300/300",
+    designation: "PostgreSQL",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Logo_PostgreSQL.png",
     badge: "Mentor",
   },
-  {
-    name: "Michael Miller",
-    designation: "CTO, FutureTech",
-    image: "https://picsum.photos/id/16/300/300",
-    badge: "Mentor",
-  },
+
   {
     name: "Sarah Brown",
-    designation: "CEO, StartUp",
-    image: "https://picsum.photos/id/17/300/300",
+    designation: "JavaScript ",
+    image:
+      "https://miro.medium.com/v2/resize:fit:960/1*-tOldEbfjijxn9VqZeULqg.gif",
   },
-  {
-    name: "James Wilson",
-    designation: "DevOps Engineer, CloudNet",
-    image: "https://picsum.photos/id/18/300/300",
-    badge: "Something",
-  },
-  {
-    name: "Patricia Moore",
-    designation: "Marketing Manager, MarketGrowth",
-    image: "https://picsum.photos/id/19/300/300",
-    badge: "Mentor",
-  },
+
   {
     name: "Richard Taylor",
-    designation: "Frontend Developer, WebSolutions",
-    image: "https://picsum.photos/id/20/300/300",
+    designation: "Docker",
+    image:
+      "https://assets-v2.lottiefiles.com/a/a8f464c6-1172-11ee-93d6-4ff65dbb03d0/zGLmMrwT4s.gif",
   },
   {
     name: "Linda Anderson",
-    designation: "Backend Developer, ServerSecure",
-    image: "https://picsum.photos/id/21/300/300",
+    designation: "Git/GitHub",
+    image:
+      "https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif",
   },
+
   {
     name: "William Thomas",
-    designation: "Full Stack Developer, FullStack",
-    image: "https://picsum.photos/id/22/300/300",
+    designation: "TypeScript",
+    image:
+      "https://d2i2xyh28mr8fx.cloudfront.net/wp-content/uploads/2023/03/03165900/WHATS-TYPESCRIPT_.png",
     badge: "Badger",
-  },
-  {
-    name: "Elizabeth Jackson",
-    designation: "Project Manager, ProManage",
-    image: "https://picsum.photos/id/23/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "David White",
-    designation: "Database Administrator, DataSafe",
-    image: "https://picsum.photos/id/24/300/300",
-    badge: "Advocate",
-  },
-  {
-    name: "Jennifer Harris",
-    designation: "Network Engineer, NetConnect",
-    image: "https://picsum.photos/id/25/300/300",
-  },
-  {
-    name: "Charles Clark",
-    designation: "Security Analyst, SecureIT",
-    image: "https://picsum.photos/id/26/300/300",
-  },
-  {
-    name: "Susan Lewis",
-    designation: "Systems Analyst, SysAnalyse",
-    image: "https://picsum.photos/id/27/300/300",
-  },
-  {
-    name: "Joseph Young",
-    designation: "Mobile Developer, AppDev",
-    image: "https://picsum.photos/id/28/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Margaret Hall",
-    designation: "Quality Assurance, BugFree",
-    image: "https://picsum.photos/id/29/300/300",
-    badge: "Developer",
   },
 ];

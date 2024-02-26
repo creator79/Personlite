@@ -101,7 +101,7 @@ export const Card = ({
       }}
       className="max-w-5xl -mt-12 mx-auto h-[30rem] md:h-[40rem] w-full border-4 border-[#6C6C6C] p-6 bg-[#222222] rounded-[30px] shadow-2xl"
     >
-      <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 overflow-hidden p-4">
+      <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 overflow-hidden p-4 ">
         {users.map((user, idx: number) => (
           <motion.div
             key={`user-${idx}`}
@@ -112,13 +112,14 @@ export const Card = ({
                 "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
             }}
           >
-            <div className="absolute top-2 right-2 rounded-full text-xs font-bold bg-white px-2 py-1">
-              {user.badge}
-            </div>
+            <div className=" mt-20 absolute top-10  right-2 rounded-full text-xs font-bold  px-2 py-1"></div>
             <Image
               src={user.image}
               className="rounded-tr-md rounded-tl-md text-sm "
               alt="thumbnail"
+              width={400}
+              height={400}
+              loading="lazy"
             />
             <div className="p-4">
               <h1 className="font-semibold text-sm ">{user.name}</h1>
