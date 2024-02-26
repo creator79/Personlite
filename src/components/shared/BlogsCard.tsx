@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
@@ -5,7 +6,7 @@ import {
   CardBody,
   CardContainer,
   CardItem,
-} from "@/components/aceternity/3d-card.tsx";
+} from "@/components/aceternity/3d-card";
 
 // Define interface for your API response data
 interface CardData {

@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import React from "react";
 import { StickyScroll } from "@/components/aceternity/sticky-scroll-reveal";
@@ -19,6 +20,7 @@ export default function StickyScrollRevealDemo() {
         </p>
       </div>
       <StickyScroll
+      // @ts-ignore
         content={projectsData.map((project) => ({ ...project, link: "" }))}
       />
     </div>

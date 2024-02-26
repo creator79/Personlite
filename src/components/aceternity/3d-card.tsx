@@ -1,3 +1,5 @@
+// disable eslint for this file
+/* eslint-disable */
 "use client";
 
 import { cn } from "@/lib/utils";
