@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import { ThemeProvider } from "@/context/ThemeProvider";
-import { TracingBeam } from "@/components/aceternity/tracing-beam";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +28,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
