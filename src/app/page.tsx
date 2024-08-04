@@ -5,6 +5,7 @@ import Macbook from "@/components/shared/Macbook";
 import Cards from "@/components/shared/Cards";
 import Gemini from "@/components/shared/Gemini";
 import Skills from "@/components/shared/Skills";
+import Globe from "@/components/shared/Globe"
 
 const page = () => {
   return (
@@ -16,6 +17,7 @@ const page = () => {
       </TracingBeam> */}
       <Gemini />
       <Skills />
+      <Globe/>
 
       {/* <Cards /> */}
     </>

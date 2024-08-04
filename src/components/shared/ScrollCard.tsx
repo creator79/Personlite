@@ -2,7 +2,7 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "@/components/aceternity/sticky-scroll-reveal";
-import projectsData from "@/lib/projectsData.json";
+import projectsData from "@/lib/constant/projectsData.json";
 
 export default function StickyScrollRevealDemo() {
   return (

@@ -42,7 +42,7 @@ export const users = [
     name: "John Doe",
     designation: "Node JS",
     image:
-      "https://www.ambientinfotech.com/wp-content/uploads/2023/01/NODEJS_CIRCLE.gif",
+      "https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif",
     badge: "Mentor",
   },
   {
