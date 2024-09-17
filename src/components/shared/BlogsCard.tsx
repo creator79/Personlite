@@ -27,7 +27,7 @@ export default function ThreeDCardDemo() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://dev.to/api/articles?username=olawanle_joel"
+          "https://dev.to/api/articles?username=creator79"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch data");
